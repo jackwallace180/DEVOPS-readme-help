@@ -6,6 +6,6 @@ The client may check that the server is a known one, and not some rogue server t
 
 By the way, known_hosts can contain any type of public key supported by the SSH implementation
 
-### Authorized Keys ###
+### :closed_lock_with_key: Authorized Keys :closed_lock_with_key: ###
 
 Authorized keys can be easily confused with known hosts. Authorized keys holds a list of authorized public keys for servers. When the client connects to a server, the server authenticates the client by checking its signed public key stored within this file.

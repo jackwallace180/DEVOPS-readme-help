@@ -7,7 +7,7 @@ The way we use the command is as follows:
 
  replacing my-key.pem with your private key file and my-virtual-machineDNS with the DNS or public IP of your virtual machine.
 
-### scp Command ###
+## :mailbox: scp Command :mailbox: ##
 
 scp stands for secure copy paste.
 We can send files to our virtual machine without even being inside them, to do this we use the scp command. Similar to ssh we will need the SSH private key that is linked to the VM, as well as a destination in the virtual machine (can be made by ssh'ing inside and using $ mkdir or/and $ touch). We will also need the route on your local machine to the file you want to copy.
