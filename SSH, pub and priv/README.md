@@ -12,9 +12,7 @@ A public key is copied to the SSH server(s). Anyone with a copy of the public ke
 
 A private key remains (only) with the user. The possession of this key is proof of the user's identity. Only a user in possession of a private key that corresponds to the public key at the server will be able to authenticate successfully. The private keys need to be stored and handled carefully, and no copies of the private key should be distributed.
 
-## User Keys ##
-
-![userkey](https://jumpcloud.com/wp-content/uploads/2017/08/LAN.png)
+## :repeat: User Keys :repeat: ##
 
 In a user key set, the private key remains on the system (our computer) being used to access the remote system (AWS EC2 as an example) and is used to decrypt information that is exchanged in the SSH protocol. Private keys should never be shared with anyone. A public key is used to encrypt information, can be shared, and is used by the user and the remote server. On the server end, the public key is saved in a file that contains a list of authorized public keys. On the user’s side, the public SSH key is stored in an SSH key management software or in a file on their computer.  
 
