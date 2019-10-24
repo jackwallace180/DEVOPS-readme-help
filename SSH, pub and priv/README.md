@@ -1,4 +1,4 @@
-# :shell: :key: SSH Keys :key: :shell: #
+# :inbox_tray: :key: SSH Keys :key: :outbox_tray: #
 
 ## What are SSH keys? ##
 
